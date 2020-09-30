@@ -1,7 +1,10 @@
 //colours
+$background-pale: rgb(153, 255, 245);
 $background-lt: turquoise;
 $background-dark:rgb(7, 204, 184);
 $text-color: floralwhite;
+//Heights
+$min-height: 350px;
 
 // Mix-ins
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
@@ -21,4 +24,14 @@ $text-color: floralwhite;
     @include zero-margin(70px, 30px);
     background-color:  $background-dark;
     color: $text-color;
+}
+
+footer {
+    @include zero-margin(20px, 0px);
+    background-color: $background-pale;
+}
+
+.row-content {
+    @include zero-margin(0px, 0px);
+    min-height: $min-height;
 }

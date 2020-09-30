@@ -10,3 +10,13 @@
   padding: 70px 30px;
   background-color: #07ccb8;
   color: floralwhite; }
+
+footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #99fff5; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 0px 0px;
+  min-height: 350px; }
