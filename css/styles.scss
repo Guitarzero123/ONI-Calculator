@@ -1,0 +1,24 @@
+//colours
+$background-lt: turquoise;
+$background-dark:rgb(7, 204, 184);
+$text-color: floralwhite;
+
+// Mix-ins
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+.row-header {
+    @include zero-margin(0px, 0px);
+}
+
+.navbar {
+    background-color: $background-lt;
+}
+
+.jumbotron {
+    @include zero-margin(70px, 30px);
+    background-color:  $background-dark;
+    color: $text-color;
+}
